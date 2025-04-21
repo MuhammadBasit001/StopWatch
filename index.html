@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="h-[100vh] w-[100vw] flex justify-center items-center bg-slate-100"
+  >
+    <main
+      class="border border-4 w-[100vw] h-[30vh] sm:w-[40vw] rounded-xl flex justify-evenly flex-col items-center bg-slate-300"
+    >
+      <section class="w-[100%] flex justify-center items-center">
+        <h2 id="min" class="text-3xl bold"></h2>
+        <h2 class="text-3xl bold">:</h2>
+        <h2 id="sec" class="text-3xl bold"></h2>
+      </section>
+      <section class="w-[100%] flex justify-evenly items-center">
+        <button class="py-2 px-4 border rounded-xl bg-slate-500 text-white" id="start">Start</button>
+        <button class="py-2 px-4 border rounded-xl bg-slate-500 text-white" id="stop">Stop</button>
+        <button class="py-2 px-4 border rounded-xl bg-slate-500 text-white" id="reset">Reset</button>
+      </section>
+    </main>
+    <script src="stopWatch.js"></script>
+  </body>
+</html>
